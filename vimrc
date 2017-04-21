@@ -132,3 +132,8 @@ endif
 nnoremap <silent> <F5> :NERDTree<CR>
 let NERDTreeWinSize=22
 
+" show TAB and space at trail
+" set encoding=utf8
+set list listchars=tab:❘_,trail:·
+highlight SpecialKey guifg=DarkGray " set TAB and trail space color
+
